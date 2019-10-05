@@ -1,0 +1,86 @@
+.fa.fa-circle-thin {
+  font-size:35px;
+}
+
+.fa.fa-bell-o {
+  font-size:25px;
+}
+
+.navbar.navbar-light.navbar-expand-md.sticky-top {
+  box-shadow:0px 1px #efefef;
+}
+
+.col {
+  background-color:white;
+  box-shadow:2px 0px #efefef;
+}
+
+.fa.fa-th-large {
+  font-size:23px;
+}
+
+.fa.fa-search {
+  font-size:23px;
+}
+
+.fa.fa-shopping-cart {
+  font-size:23px;
+}
+
+.h1, h1 {
+  font-size:23px;
+}
+
+body {
+  background-color:#fcfcfc;
+}
+
+.navbar.navbar-light.navbar-expand-md.sticky-top {
+  background-color:white;
+}
+
+.Bulk {
+  background-color:#f9fbfb;
+}
+
+.product img {
+  border-radius:100px;
+}
+
+.fa.fa-linkedin {
+  font-size:32px;
+}
+
+.fa.fa-twitter {
+  font-size:32px;
+}
+
+.fa.fa-instagram {
+  font-size:32px;
+}
+
+.fa.fa-facebook {
+  font-size:32px;
+}
+
+
+
+.parent:hover div {
+  background-color:rgba(255,255,255,0.8);
+}
+
+.parent:hover .product:hover {
+  opacity:1;
+  box-shadow:0px 1px 21px rgb(244,245,245), -10px 1px 21px rgb(244,245,245), 10px 1px 21px rgb(244,245,245);
+  background-color:rgba(255,255,255,1);
+}
+
+.Buttons {
+  border-color:white;
+  border:0px;
+}
+
+a.active {
+  border-right:3px solid rgb(133,237,133);
+  border-radius:0px;
+}
