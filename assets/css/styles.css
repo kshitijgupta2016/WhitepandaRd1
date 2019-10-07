@@ -25,6 +25,7 @@
 
 .fa.fa-shopping-cart {
   font-size:23px;
+  /*color:grey;*/
 }
 
 .h1, h1 {
@@ -63,9 +64,13 @@ body {
   font-size:32px;
 }
 
-
+.parent:hover div :hover {
+  /*opacity:1;*/
+  /*box-shadow:0 1px 2px #334;*/
+}
 
 .parent:hover div {
+  /*opacity:0.6;*/
   background-color:rgba(255,255,255,0.8);
 }
 
@@ -81,6 +86,37 @@ body {
 }
 
 a.active {
-  border-right:3px solid rgb(133,237,133);
+  border-right:green 2px;
+  outline:3px solid rgb(133,237,133);
   border-radius:0px;
+}
+.fa-search:hover{
+  color:green !important;
+}
+.fa-shopping-cart:hover{
+  color:green !important;
+}
+.fa-th-large:hover{
+  color:green !important;
+}
+.fa-facebook:hover{
+  color:blue;
+}
+.fa-instagram:hover{
+  color:red;
+}
+.fa-twitter:hover{
+  color:blue;
+}
+.fa-linkedin:hover{
+  color:blue;
+}
+
+a:focus .fa-th-large {
+  border-right:3px solid green;
+  color:green !important;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
 }
